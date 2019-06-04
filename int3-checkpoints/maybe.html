@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interactive Simple Calculator</title>
+    
+    <!--The styleing for the buttons to make it look clean -->
+    <style>
+        #table {
+            width:320px;
+            margin:50px auto;
+            background:rgb(61, 202, 237);
+            padding:20px 25px 20px ;
+        }
+        #heading{
+            font-size:130%;
+            text-align:center;
+        }
+        #input, #answer{
+            width:260px;
+            height:50px;
+            font-size: 210%;
+            text-align:right;
+            border: none;
+        }
+        input[type=button]{
+            height:60px;
+            width:60px;
+            margin:1px;
+            font-size:130%;
+        }
+        #solve{
+            width:126px;
+            background:rgb(39,168,0);
+            border-color:rgb(39,168,0);
+        }
+    </style>
+    
+</head>
+<body>
+    
+    <!--The calculator -->
+    <table id="table">
+        <tr>
+            <!--heading for the calculator-->
+            <tr>
+                <td id="heading">
+                    Simple Calculator
+                </td>
+            </tr>
+            
+            <!-- The display for the input and answer-->
+            <td>
+                <input type="text" id="input">
+                <input type="text" id="answer">
+            </td>
+            
+        </tr>
+        
+        <!--The buttons of the calculator -->
+        <tr>
+            <td>
+                <input id="clear" type="button" value="CE" >
+                <input id="powerTwo" type="button" value="^2">
+                <input id="percent" type="button" value="%">
+                <input id="divide" type="button" value="/">
+                <br>
+                <input id="seven" type="button" value="7">
+                <input id="eight" type="button" value="8">
+                <input id="nine" type="button" value="9" >
+                <input id="multi" type="button" value="x">
+                <br>
+                <input id="four" type="button" value="4">
+                <input id="five" type="button" value="5">
+                <input id="six" type="button" value="6">
+                <input id="minus" type="button" value="-">
+                <br>
+                <input id="one" type="button" value="1">
+                <input id="two" type="button" value="2">
+                <input id="three" type="button" value="3">
+                <input id="plus" type="button" value="+">
+                <br>
+                <input id="zero" type="button" value="0" >
+                <input id="dot" type="button" value=".">
+                <input id="solve" type="button" value="=" >
+            </td>
+        </tr>
+        
+    </table>
+ 
+
+    
+<script src="interactive.js"></script>
+</body>
+</html>

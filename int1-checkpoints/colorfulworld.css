@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(86,234,195);
+}
+h1, h2 {
+    text-align: center
+}
+h3, h4 {
+    color: purple
+}
+.fun-facts{
+    font-family: "Comic Sans MS", cursive, sans-serif
+}
+#para {
+    color: rgb(250,0,0);
+}
+
+#first-pic {
+    margin-bottom: 25px;
+}
+#heading-2 {
+    border-style:solid;
+}
